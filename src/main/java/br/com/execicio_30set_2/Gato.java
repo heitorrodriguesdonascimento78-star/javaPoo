@@ -16,6 +16,6 @@ public class Gato extends Animal {
     @Override
     public void exibirInfo() {
         super.exibirInfo();
-        System.out.println("Pelo longo: " + (temPeloLongo ? "Sim" : "Não"));
+        System.out.println("Pelo curto: " + (temPeloLongo ? "Sim" : "Não"));
     }
 }

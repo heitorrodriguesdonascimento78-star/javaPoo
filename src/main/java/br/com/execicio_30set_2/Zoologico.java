@@ -3,9 +3,10 @@ package br.com.execicio_30set_2;
 public class Zoologico {
     public static void main(String[] args) {
         Animal[] animais = {
-                new Cachorro("Rex", 3, "Labrador"),
-                new Gato("Mimi", 2, true),
-                new Passaro("Piu", 1, 15.5)
+                new Cachorro("Natacha", 4, "Virarata"),
+                new Gato("Mimi", 3, true),
+                new Passaro("Piu", 2, 15.5),
+                new Pato("Daque", 1, 98)
         };
 
         System.out.println("=== SOM DOS ANIMAIS ===");

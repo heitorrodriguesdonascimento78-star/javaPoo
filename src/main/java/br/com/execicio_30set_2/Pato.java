@@ -1,16 +1,16 @@
 package br.com.execicio_30set_2;
 
-public class Passaro extends Animal {
+public class Pato extends Animal {
     private double envergaduraAsas;
 
-    public Passaro(String nome, int idade, double envergaduraAsas) {
+    public Pato(String nome, int idade, double envergaduraAsas) {
         super(nome, idade);
         this.envergaduraAsas = envergaduraAsas;
     }
 
     @Override
     public void emitirSom() {
-        System.out.println(nome + " diz: Piu Piu!");
+        System.out.println(nome + " diz:quaque!");
     }
 
     @Override
@@ -24,4 +24,3 @@ public class Passaro extends Animal {
         System.out.println("Envergadura: " + envergaduraAsas + "cm");
     }
 }
-
