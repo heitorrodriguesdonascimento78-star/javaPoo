@@ -6,9 +6,7 @@ public abstract class Funcionario {
     protected Double salarioBase;
 
     public Funcionario(String nome, String matricula, Double salarioBase) {
-        this.nome = nome;
-        this.matricula = matricula;
-        this.salarioBase = salarioBase;
+
     }
 
     public String getNome() {
