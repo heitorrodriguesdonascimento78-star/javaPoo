@@ -8,7 +8,7 @@ public class Estagiario extends Funcionario{
 
     public  Estagiario(String nome, String matricula, Double valorHoraTrabalhada){
 
-        super(nome, matricula,salarioBase: 2.2);
+        super(nome, matricula,salarioBase:0.0);
         this.valorHoraTrabalhada = valorHoraTrabalhada;
         this.horasTrabalhadas = 0;
     }

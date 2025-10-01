@@ -6,7 +6,7 @@ public class Desenvolvedor extends Funcionario{
     private Double valorHoraExtra;
 
     public Desenvolvedor(String nome, String matricula, int salarioBase, int horasExtras, Double valorHoraExtra){
-        super(nome,matricula,salarioBase);
+        super(nome,matricula, salarioBase);
         this.horasExtras = horasExtras;
         this.valorHoraExtra = valorHoraExtra;
     }
