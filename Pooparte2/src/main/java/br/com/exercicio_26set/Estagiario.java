@@ -4,11 +4,11 @@ public class Estagiario extends Funcionario{
 
     private int horasTrabalhadas;
 
-    private Double valorHoraTrabalhada;
+    private final Double valorHoraTrabalhada;
 
     public  Estagiario(String nome, String matricula, Double valorHoraTrabalhada){
 
-        super(nome,matricula, salarioBase:0.0);
+        super(nome, matricula,salarioBase:0.0);
         this.valorHoraTrabalhada = valorHoraTrabalhada;
         this.horasTrabalhadas = 0;
     }

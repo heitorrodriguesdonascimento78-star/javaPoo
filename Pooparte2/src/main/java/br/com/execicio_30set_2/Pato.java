@@ -1,0 +1,26 @@
+package br.com.execicio_30set_2;
+
+public class Pato extends Animal {
+    private double envergaduraAsas;
+
+    public Pato(String nome, int idade, double envergaduraAsas) {
+        super(nome, idade);
+        this.envergaduraAsas = envergaduraAsas;
+    }
+
+    @Override
+    public void emitirSom() {
+        System.out.println(nome + " diz:quaque!");
+    }
+
+    @Override
+    public void mover() {
+        System.out.println(nome + " está pairando!");
+    }
+
+    @Override
+    public void exibirInfo() {
+        super.exibirInfo();
+        System.out.println("Envergadura: " + envergaduraAsas + "cm");
+    }
+}
